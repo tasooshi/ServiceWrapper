@@ -1,12 +1,3 @@
-# ServiceWrapper
-
-A wrapper for commands to be executed as Windows services
-
-## Configuration
-
-### Example
-
-```
 <?xml version="1.0" encoding="utf-8"?>
 <ServiceConfiguration>
     <Name>CustomName</Name>
@@ -31,12 +22,3 @@ A wrapper for commands to be executed as Windows services
         </Command>
     </Commands>
 </ServiceConfiguration>
-```
-
-### Options
-
-* RunAs
-    - LocalSystem
-    - LocalService
-    - NetworkService
-    - User
